@@ -1,0 +1,12 @@
+/Users/dc/Documents/rustProjects/dannysun85/libp2p-examples/chat/target/debug/deps/base16ct-0f4dbcb0c09f56b5.rmeta: /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lib.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lower.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/mixed.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/upper.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/display.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/error.rs
+
+/Users/dc/Documents/rustProjects/dannysun85/libp2p-examples/chat/target/debug/deps/libbase16ct-0f4dbcb0c09f56b5.rlib: /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lib.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lower.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/mixed.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/upper.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/display.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/error.rs
+
+/Users/dc/Documents/rustProjects/dannysun85/libp2p-examples/chat/target/debug/deps/base16ct-0f4dbcb0c09f56b5.d: /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lib.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lower.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/mixed.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/upper.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/display.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/error.rs
+
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lib.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/lower.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/mixed.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/upper.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/display.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/base16ct-0.1.1/src/error.rs:

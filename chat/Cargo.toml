@@ -1,0 +1,11 @@
+[package]
+name = "chat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libp2p = {version = "0.50.0", features = ["floodsub","identify","full"]}
+async-std = {version = "1.12.0", features = ["attributes"]}
+

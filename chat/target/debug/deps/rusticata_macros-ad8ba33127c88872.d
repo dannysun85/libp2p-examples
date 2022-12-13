@@ -1,0 +1,11 @@
+/Users/dc/Documents/rustProjects/dannysun85/libp2p-examples/chat/target/debug/deps/rusticata_macros-ad8ba33127c88872.rmeta: /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/lib.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/combinator.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/debug.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/macros.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/traits.rs
+
+/Users/dc/Documents/rustProjects/dannysun85/libp2p-examples/chat/target/debug/deps/librusticata_macros-ad8ba33127c88872.rlib: /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/lib.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/combinator.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/debug.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/macros.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/traits.rs
+
+/Users/dc/Documents/rustProjects/dannysun85/libp2p-examples/chat/target/debug/deps/rusticata_macros-ad8ba33127c88872.d: /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/lib.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/combinator.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/debug.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/macros.rs /Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/traits.rs
+
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/lib.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/combinator.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/debug.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/macros.rs:
+/Users/dc/.cargo/registry/src/github.com-1ecc6299db9ec823/rusticata-macros-4.1.0/src/traits.rs:
