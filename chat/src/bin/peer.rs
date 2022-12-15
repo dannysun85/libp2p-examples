@@ -1,7 +1,7 @@
 use std::error::Error;
 use libp2p::identify::{Behaviour, Config, Event};
 use libp2p::identity::Keypair;
-use libp2p::{PeerId, Swarm};
+use libp2p::{Multiaddr, PeerId, Swarm};
 use libp2p::futures::StreamExt;
 use libp2p::swarm::SwarmEvent;
 
@@ -12,7 +12,7 @@ async fn main() -> Result<(),Box<dyn Error>> {
     let peer_id = PeerId::from(id.public());
     println!("Local peer id: {:?}", peer_id);
 
-    // 生成一个 transport
+    // 生成一个 transport(TCP传输层 加密层也在里面 要扩展可以在此处扩展)
     let transport = libp2p::development_transport(id.clone()).await?;
 
     let behaviour = Behaviour::new(Config::new(
@@ -23,7 +23,7 @@ async fn main() -> Result<(),Box<dyn Error>> {
     let mut swarm = Swarm::with_threadpool_executor(transport,behaviour,peer_id);
 
     if let Some(addr) = std::env::args().nth(1) {
-        let remote = addr.parse()?;
+        let remote = addr.parse::<Multiaddr>()?;
         swarm.dial(remote)?;
         println!("Listening on {}", addr);
     }
@@ -32,7 +32,7 @@ async fn main() -> Result<(),Box<dyn Error>> {
 
     loop {
         match swarm.select_next_some().await{
-            SwarmEvent::Behaviour(event) => println!("{:?}",event),
+            SwarmEvent::Behaviour(event) => println!("Behaviour Event: {:?}",event),
             SwarmEvent::NewListenAddr { address, .. } => println!("Listening on {:?}", address),
             SwarmEvent::Behaviour(Event::Sent { peer_id, .. }) => {
                 println!("Sent identify info to {:?}", peer_id)

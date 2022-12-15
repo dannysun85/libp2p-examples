@@ -11,3 +11,8 @@ async-std = {version = "1.12.0", features = ["attributes"]}
 
 [[bin]]
 name = "peer"
+path = "src/bin/peer.rs"
+
+[[bin]]
+name = "chat-ex"
+path = "src/bin/chat.rs"
