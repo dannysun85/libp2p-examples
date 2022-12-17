@@ -1,8 +1,8 @@
 use std::collections::hash_map::DefaultHasher;
 use std::error::Error;
 use std::hash::{Hash, Hasher};
-use libp2p::{gossipsub, identity, PeerId, Swarm, swarm};
-use libp2p::gossipsub::{GossipsubMessage, MessageAuthenticity, MessageId, Topic};
+use libp2p::{gossipsub, identity, mdns, PeerId, Swarm, swarm};
+use libp2p::gossipsub::{Gossipsub, GossipsubMessage, MessageAuthenticity, MessageId, Topic};
 
 #[async_std::main]
 async fn main() -> Result<(),Box<dyn Error>> {
@@ -14,6 +14,12 @@ async fn main() -> Result<(),Box<dyn Error>> {
     let transport = libp2p::development_transport(id.clone()).await?;
 
     let topic = Topic::new("chat");
+
+    #[derive(NetworkBehaviour)]
+    struct MyBehaviour{
+        gossipsub:Gossipsub,
+        mdns:mdns::async_io::Behaviour,
+    }
 
     //设置message的加密内容
     let mut swarm = {
