@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-libp2p = {version = "0.50.0"}
+libp2p = {version = "0.50.0", features = ["gossipsub","async-std","tcp","dns","websocket","noise","yamux","mplex"]}
 async-std = {version = "1.10.0", features = ["attributes"]}
